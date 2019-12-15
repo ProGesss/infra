@@ -19,6 +19,11 @@
 	"type": "shell",
 	"script": "scripts/install_mongodb.sh",
 	"execute_command": "sudo bash {{.Path}}"
+        },
+	{
+        "type": "shell",
+        "script": "scripts/install_deploy.sh",
+	"execute_command": "bash {{.Path}}"
         }
       ]
     }
